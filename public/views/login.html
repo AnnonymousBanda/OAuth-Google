@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login with Google</title>
+    <style>
+        :root {
+            --main-color: #3E4684;
+            --secondary-color: #DDE5F4;
+            --bg-color: #F1F7FE;
+            --google-color: #4285F4; /* Google Blue */
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            background-color: var(--secondary-color);
+            box-sizing: border-box;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h2{
+            color: var(--main-color);
+        }
+
+        .login-container {
+            background-color: var(--bg-color);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .google-logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .login-btn {
+            border-radius: 18px;
+            background-color: var(--main-color); /* Google Blue */
+            outline: none;
+            border: none;
+            width: 200px;
+            height: 36px;
+            color: #fff;
+            font-size: 1.4rem;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.1s linear;
+        }
+
+        .login-btn:hover {
+            transform: scale(1.05); /* Darker shade of Google Blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="google-logo">
+        <h2>Login with Google</h2>
+        <a href="/auth/google"><button id="google-login-btn" class="login-btn">Login with Google</button></a>
+    </div>
+</body>
+</html>

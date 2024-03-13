@@ -1,0 +1,50 @@
+:root{
+    --main-color: #3E4684;
+    --secondary-color: #DDE5F4;
+    --bg-color: #F1F7FE;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-container{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.slogan{
+    color: var(--main-color);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    border-radius: 18px;
+    background-color: var(--main-color);
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 36px;
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    user-select: none;
+}

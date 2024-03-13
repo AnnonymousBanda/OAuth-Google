@@ -1,0 +1,53 @@
+
+:root {
+    --main-color: #3e4684;
+    --secondary-color: #dde5f4;
+    --bg-color: #f1f7fe;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-details p {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
